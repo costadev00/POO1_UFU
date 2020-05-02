@@ -1,0 +1,33 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<testing_vscode>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "testing_vscode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ex2_lista1",
+            "request": "launch",
+            "mainClass": "ex2_lista1.Ex2_lista1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Maior_numero",
+            "request": "launch",
+            "mainClass": "maior_numero.Maior_numero"
+        }
+    ]
+}
