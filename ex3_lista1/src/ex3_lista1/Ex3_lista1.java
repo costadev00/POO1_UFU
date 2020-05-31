@@ -57,5 +57,4 @@ public class Ex3_lista1 {
         System.out.println("Segundo Lugar: " + seg_nota + ":" + quant2 + " alunos");
         System.out.println("Terceira lugar: " + ter_nota + ":" + quant3 + " alunos");
     }
-
 }
