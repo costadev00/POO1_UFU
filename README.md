@@ -3,3 +3,4 @@ Repositório criado para o armazenamento de códigos feitos no estudo da matéri
 Vale ressaltar que foi utilizada a linguagem de programação Java.
 Para acessar o código fonte vá em: nome_do_projeto >>> src/nome_do_projeto.
 
+<img src="https://media.giphy.com/media/LPZMkVxnXERA5h8BVJ/giphy.gif" width="435" height="413"/>
