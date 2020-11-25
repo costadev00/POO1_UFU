@@ -17,23 +17,7 @@ public class Ex1_lista1 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         int a, b,aux=0;
-        System.out.println("Digite o valor de A:");
-        a = ler.nextInt();
-        System.out.println("Digite o valor de B:");
-        b = ler.nextInt();
-        if(a%b==0){
-            aux = b;
-            b=a;
-            a = aux;
-        }
-        else if(b%a ==0){
-            System.out.println("ok");
-        }
-        else{
-            a=0;
-        }
-        System.out.println("A = "+a);
-        System.out.println("B = " +b);
+      
     }
     
 }
