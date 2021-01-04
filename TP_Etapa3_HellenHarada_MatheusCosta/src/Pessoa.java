@@ -1,10 +1,9 @@
-public class Pessoa {
+public abstract class Pessoa {
 
     private String cpf;
     private String nome;
-    private String cargo;
 
-    public void Cadastro(String cpf, String nome, String cargo) {
+    public void Cadastro(String cpf, String nome) {
         this.cpf = cpf;
         this.nome = nome;
     }
@@ -26,15 +25,8 @@ public class Pessoa {
     }
 
     public void mostrar() {
-        System.out.println("\nNome: " + this.nome);
-    }
-
-    public String getCargo() {
-        return cargo;
-    }
-
-    public void setCargo(String cargo) {
-        this.cargo = cargo;
+        System.out.println("\nCpf: " + this.cpf);
+        System.out.println("Nome: " + this.nome);
     }
 
 }

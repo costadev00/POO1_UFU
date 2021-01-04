@@ -1,12 +1,11 @@
-public static class Professor extends Pessoa {
+public class Professor extends Pessoa {
 
     private String areaatuacao;
     private int quantmatministrada;
     private double salario;
 
-    public void Cadastro(String cpf, String nome, String areaatuacao, int quantmatministrada, double salario,
-            String cargo) {
-        super.Cadastro(cpf, nome, cargo);
+    public void Cadastro(String cpf, String nome, String areaatuacao, int quantmatministrada, double salario) {
+        super.Cadastro(cpf, nome);
         this.areaatuacao = areaatuacao;
         this.quantmatministrada = quantmatministrada;
         this.salario = salario;
@@ -39,8 +38,8 @@ public static class Professor extends Pessoa {
     @Override
     public void mostrar() {
         super.mostrar();
-        System.out.println("\nArea de atuacao: " + this.areaatuacao);
-        System.out.println("\nQuantidade materias ministradas: " + this.quantmatministrada);
-        System.out.println("\nSalario: " + this.salario);
+        System.out.println("Area de atuacao: " + this.areaatuacao);
+        System.out.println("Quantidade materias ministradas: " + this.quantmatministrada);
+        System.out.println("Salario: " + this.salario);
     }
 }

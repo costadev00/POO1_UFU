@@ -1,16 +1,11 @@
-public static class Aluno extends Pessoa {
-
-    public Aluno(String nome, int idade, String sexo) {
-        super(nome, idade, sexo);
-        // TODO Auto-generated constructor stub
-    }
+public class Aluno extends Pessoa {
 
     private String matricula;
     private int quantmaterias;
     private String curso;
 
-    public void Cadastro(String cpf, String nome, String matricula, int quantmaterias, String curso, String cargo) {
-        super.Cadastro(cpf, nome, cargo);
+    public void Cadastro(String cpf, String nome, String matricula, int quantmaterias, String curso) {
+        super.Cadastro(cpf, nome);
         this.matricula = matricula;
         this.quantmaterias = quantmaterias;
         this.curso = curso;
@@ -43,9 +38,9 @@ public static class Aluno extends Pessoa {
     @Override
     public void mostrar() {
         super.mostrar();
-        System.out.println("\nMatricula: " + this.matricula);
-        System.out.println("\nQuantidade de materias matriculadas: " + this.quantmaterias);
-        System.out.println("\nCurso: " + this.curso);
+        System.out.println("Matricula: " + this.matricula);
+        System.out.println("Quantidade de materias matriculadas: " + this.quantmaterias);
+        System.out.println("Curso: " + this.curso);
 
     }
 
